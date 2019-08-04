@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+    <name>希望之园伊甸零式：觉醒篇 3</name>
+    <zone>Eden's Gate: Inundation (Savage)</zone>
+    <rev>v0.1</rev>
+    <author>houshuu ＠ NGA</author>
+    <description>这是用于希望之园伊甸零式：觉醒篇 3 的时间轴。</description>
+    <license>CC BY-SA</license>
+    <locale>CN</locale>
+    <entry>利维坦</entry>
+    <start>00:0039:(戦闘開始！|Engage!|战斗开始！)</start>
+    <!-- 参数设定 -->
+    <!-- 参考logs：https://ja.fflogs.com/reports/XPRzbtfhTwMnK2Ga#fight=15&type=casts&view=events&hostility=1 -->
+    <default target-element="Activity" target-attr="notice-o" value="0"/>
+    <default target-element="Activity" target-attr="notice-d" value="Both"/>
+    <default target-element="Activity" target-attr="sync-s" value="-4" />
+    <default target-element="Activity" target-attr="sync-e" value="4" />
+    <s name="利维坦">
+        <a time="00:09" text="[AoE] 潮汐怒吼" icon="全体攻撃.png" sync="3FDC:(.*) starts using (.*) on (.*)."/>
+        <a time="00:19" text="[死刑] 撕裂水流" icon="スイッチ.png" sync="3FE0:(.*) starts using (.*) on (.*)."/>
+        <a time="00:38" text="[地板] 海底地震\n 躲中间 ❌|✅|❌" icon="頭割り.png" sync="3FEF:(.*) starts using (.*) on (.*)."/>
+        <a time="00:45" text="[击退] 潮汐冲击" icon="ノックバック.png"/>
+        <a time="00:46" text="[斜冲] 突现水流 ↘" icon="避ける.png" sync="3FEA:(.*) starts using (.*) on (.*)."/>
+        <a time="00:58" text="[放圈] 猛烈波动" icon="重ね捨て.png" sync="3FE2:(.*) starts using (.*) on (.*)."/>
+        <a time="01:03" text="[分散] 怪异波浪" icon="全体攻撃.png" sync="3FE6:(.*) starts using (.*) on [me]."/>
+        <a time="01:13" text="[斜冲] 突现水流 ↙" icon="避ける.png" sync="3FEB:(.*) starts using (.*) on (.*)."/>
+        <a time="01:24" text="[运动会] 漩涡" icon="注意.png" sync="3FFA:(.*) starts using (.*) on (.*)."/>
+        <a time="01:46" text="[AoE] 潮汐怒吼" icon="全体攻撃.png" sync="3FDC:(.*) starts using (.*) on (.*)."/>
+        <a time="02:00" text="[AoE] 大海啸1️⃣" icon="全体攻撃.png" sync="3FF3:(.*) starts using (.*) on (.*)."/>
+        <a time="02:17" text="[击退] 断绝大海啸" icon="ノックバック.png"/>
+        <a time="02:19" text="[地板] 海底地震\n 躲两边 ✅|❌|✅" icon="離れる.png" sync="3FEE:(.*) starts using (.*) on (.*)."/>
+        <a time="02:30" text="[斜冲] 随机 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="02:37" text="[分摊] 涡动+溺没" icon="集合.png"/>
+        <a time="02:42" text="[AoE] 潮汐怒吼" icon="全体攻撃.png" sync="3FDC:(.*) starts using (.*) on (.*)."/>
+        <a time="02:48" text="[死刑] 撕裂水流" icon="スイッチ.png" sync="3FE0:(.*) starts using (.*) on (.*)."/>
+        <a time="02:57" text="[斜冲] 随机 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="03:10" text="[AoE] 潮汐怒吼" icon="全体攻撃.png" sync="3FDC:(.*) starts using (.*) on (.*)."/>
+        <a time="03:35" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="03:47" text="[地板] 海底地震\n 躲中间 ❌|✅|❌" icon="頭割り.png" sync="3FEF:(.*) starts using (.*) on (.*)."/>
+        <a time="03:55" text="[击退] 潮汐冲击" icon="ノックバック.png"/>
+        <a time="03:56" text="[斜冲1] 随机 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="04:05" text="[斜冲2] 反向 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="04:09" text="[放圈] 猛烈波动" icon="重ね捨て.png" sync="3FE2:(.*) starts using (.*) on (.*)."/>
+        <a time="04:14" text="[分散] 怪异波浪" icon="全体攻撃.png" sync="3FE6:(.*) starts using (.*) on [me]."/>
+        <a time="04:19" text="[斜冲1] 随机 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="04:28" text="[斜冲2] 反向 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="04:40" text="[运动会] 漩涡" icon="注意.png" sync="3FFA:(.*) starts using (.*) on (.*)."/>
+        <a time="05:06" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="05:13" text="[死刑] 撕裂水流" icon="スイッチ.png" sync="3FE0:(.*) starts using (.*) on (.*)."/>
+        <a time="05:29" text="[圈x5] 大风暴" icon="重ね捨て.png" sync="3FFE:(.*) starts using (.*) on (.*)."/>
+        <a time="05:42" text="[斜冲1] 随机 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="05:47" text="[T远离] 反冲巨浪" icon="距離減衰.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="05:51" text="[斜冲2] 反向 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="05:57" text="[分摊x5] 强推巨浪" icon="頭割り.png"/>
+        <a time="06:02" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="06:12" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="06:33" text="[放圈] 猛烈波动" icon="重ね捨て.png" sync="3FE2:(.*) starts using (.*) on (.*)."/>
+        <a time="06:38" text="[分散] 怪异波浪" icon="全体攻撃.png" sync="3FE6:(.*) starts using (.*) on [me]."/>
+        <a time="06:42" text="[地板] 海底地震\n 躲中间 ❌|✅|❌" icon="頭割り.png" sync="3FEF:(.*) starts using (.*) on (.*)."/>
+        <a time="06:50" text="[AoE] 大海啸2️⃣" icon="全体攻撃.png" sync="3FF3:(.*) starts using (.*) on (.*)."/>
+        <a time="07:09" text="[击退] 强压大海啸" icon="全体攻撃.png"/>
+        <a time="07:14" text="[H分摊] 溺没大海啸" icon="頭割り.png"/>
+        <a time="07:16" text="[H射线] 扩散大海啸" icon="全体攻撃.png"/>
+        <a time="07:22" text="[AoE] 断绝大海啸" icon="ノックバック.png"/>
+        <a time="07:26" text="[AoE] 断绝大海啸" icon="ノックバック.png"/>
+        <a time="07:30" text="[T远离] 暴风大海啸" icon="ツイスター.png"/>
+        <a time="07:34" text="[斜冲1] 随机 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="07:43" text="[斜冲2] 随机 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="07:51" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="08:01" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="08:08" text="[死刑] 撕裂水流" icon="スイッチ.png" sync-s="-30" sync-e="50" sync="3FE0:(.*) starts using (.*) on (.*)."/>
+        <a time="08:26" text="[放圈] 剧烈波动" icon="重ね捨て.png" sync-s="-400" sync-e="400" sync="3FE4:(.*) starts using (.*) on (.*)."/>
+        <a time="08:32" text="[H分摊] 杀戮巨浪" icon="頭割り.png" sync="3FE7:(.*) starts using (.*) on (.*)."/>
+        <a time="08:33" text="[地板] 海底地震\n 躲两边 ✅|❌|✅" icon="離れる.png" sync="3FEE:(.*) starts using (.*) on (.*)."/>
+        <a time="08:37" text="[T远离] 毁灭巨浪" icon="ツイスター.png"/>
+        <a time="08:42" text="黑烟柱" icon="離れる.png" sync="4007:(.*) starts using (.*) on (.*)."/>
+        <a time="08:49" text="[H→T] 飞溅巨浪" icon="ペア処理.png"/>
+        <a time="09:08" text="[斜冲1] 随机 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="09:17" text="[斜冲2] 反向 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="09:24" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="09:35" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="09:52" text="[DEBUFF] 沉溺波动" icon="全体攻撃.png" sync="3FA5:(.*) starts using (.*) on (.*)."/>
+        <a time="10:02" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="10:09" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="10:20" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
+        <a time="10:29" text="[AoE] 混沌涡动 狂暴" icon="時間切れ.png"/>
+    </s>
+</timeline>
