@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+    <name>希望之园伊甸零式：觉醒篇 2</name>
+    <zone>Eden's Gate: Descent (Savage)</zone>
+    <rev>v0.1</rev>
+    <author>houshuu ＠ NGA</author>
+    <description>这是用于希望之园伊甸零式：觉醒篇 2 的时间轴。</description>
+    <license>CC BY-SA</license>
+    <locale>CN</locale>
+    <entry>虚无行者</entry>
+    <start>00:0039:(戦闘開始！|Engage!|战斗开始！)</start>
+    <!-- 参数设定 -->
+    <!-- <default target-element="Activity" target-attr="notice-o" value="0"/>
+    <default target-element="Activity" target-attr="notice-d" value="Both"/> -->
+    <default target-element="Activity" target-attr="sync-s" value="-2" />
+    <default target-element="Activity" target-attr="sync-e" value="2" />
+    <s name="虚无行者">
+        <a time="00:05" text="[万变] 碎空大砍刀" icon="散開B.png" sync="3E63:(.*) starts using (.*) on (.*)."/>
+        <a time="00:18" text="[分摊] 至邪黑暗" icon="頭割り.png" sync="3E53:(.*) starts using (.*) on (.*)."/>
+        <a time="00:26" text="[随机] 月环/直线" icon="縦範囲攻撃.png" sync="3E(4F|50):(.*) starts using (.*) on (.*)."/>
+        <a time="00:36" text="[爆炸] 黑暗爆炎" icon="爆発系.png" sync="3E56:(.*) starts using (.*) on (.*)."/>
+        <a time="01:07" text="[接球] 惩罚射线" icon="散開A.png"/>
+        <a time="01:33" text="[爆炸] 黑暗爆炎" icon="爆発系.png"/>
+        <a time="01:37" text="[HP→1] 地狱之风" icon="単体強攻撃.png" sync="3E65:(.*) starts using (.*) on (.*)."/>
+        <a time="01:44" text="[背对分摊] 暗影之眼→至邪黑暗" icon="頭割り.png"/>
+        <a time="01:54" text="[死刑] 暗影之火" icon="単体強攻撃.png" sync="3E6[12]:(.*) starts using (.*) on ([^0-9]*)."/>
+        <a time="02:04" text="[AoE] 崩坏" icon="全体攻撃.png" sync="3E6F:(.*) starts using (.*) on (.*)."/>
+        <a time="02:14" text="[远离] 虚无害意" icon="避ける.png" sync="3E6C:(.*) starts using (.*) on (.*)."/>
+        <a time="02:21" text="[直线] 碎空断头台" icon="縦範囲攻撃.png" sync="3E4F:(.*) starts using (.*) on (.*)."/>
+        <a time="02:30" text="[月环] 碎空切片机" icon="外周範囲攻撃.png" sync="3E50:(.*) starts using (.*) on (.*)."/>
+        <a time="02:42" text="[击退] 虚无恶意" icon="ノックバック.png" sync="3E5A:(.*) starts using (.*) on (.*)."/>
+        <a time="02:48" text="[万变] 碎空大砍刀" icon="散開B.png" sync="3E63:(.*) starts using (.*) on (.*)."/>
+        <a time="03:03" text="[死刑] 暗影之火" icon="単体強攻撃.png" sync="3E6[12]:(.*) starts using (.*) on ([^0-9]*)."/>
+        <a time="03:14" text="[AoE] 崩坏" icon="全体攻撃.png" sync="3E6F:(.*) starts using (.*) on (.*)."/>
+        <a time="03:36" text="[陨石] 闪耀" icon="爆発系.png" sync="4684:(.*) starts using (.*) on (.*)."/>
+        <a time="03:59" text="[HP→1] 地狱之风" icon="単体強攻撃.png"/>
+        <a time="04:06" text="[连招] 惩罚射线→暗影之眼" icon="散開A.png"/>
+        <a time="04:13" text="[死刑] 暗影之火" icon="単体強攻撃.png" sync="3E6[12]:(.*) starts using (.*) on ([^0-9]*)."/>
+        <a time="04:24" text="[AoE] 崩坏" icon="全体攻撃.png" sync="3E6F:(.*) starts using (.*) on (.*)."/>
+        <a time="04:36" text="[中和→万变] 光与暗→碎空大砍刀" icon="ペア処理.png"/>
+        <a time="04:47" text="[分摊] 至邪黑暗" icon="頭割り.png"  sync="3E53:(.*) starts using (.*) on (.*)."/>
+        <a time="04:57" text="[随机] 月环/直线" icon="縦範囲攻撃.png" sync="3E(4F|50):(.*) starts using (.*) on (.*)."/>
+        <a time="05:22" text="[死刑] 暗影之火" icon="単体強攻撃.png" sync="3E6[12]:(.*) starts using (.*) on ([^0-9]*)."/>
+        <a time="05:33" text="[AoE] 崩坏" icon="全体攻撃.png" sync="3E6F:(.*) starts using (.*) on (.*)."/>
+        <a time="05:49" text="[随机] 大手\n♦ 注意看线" icon="避ける.png" sync="(3E6C|3E5A):(.*) starts using (.*) on (.*)."/>
+        <a time="06:19" text="[陨石] 闪耀" icon="爆発系.png"/>
+        <a time="06:24" text="[分摊] 至邪黑暗\n♦ 注意减伤" icon="頭割り.png"/>
+        <a time="06:32" text="[死刑] 暗影之火" icon="単体強攻撃.png" sync="3E6[12]:(.*) starts using (.*) on ([^0-9]*)."/>
+        <a time="07:07" text="[连招] 背对+陨石" icon="爆発系.png"/>
+        <a time="07:15" text="[爆炸] 黑暗爆炎" icon="爆発系.png"/>
+        <a time="07:25" text="[中和→接球] 光与暗→惩罚射线" icon="ペア処理.png"/>
+        <a time="07:28" text="[万变] 碎空大砍刀" icon="散開B.png" sync="3E63:(.*) starts using (.*) on (.*)."/>
+        <a time="07:43" text="[死刑] 暗影之火" icon="単体強攻撃.png" sync="3E6[12]:(.*) starts using (.*) on ([^0-9]*)."/>
+        <a time="08:11" text="[AoE] 寂灭" icon="全体強攻撃.png"/>
+        <a time="08:21" text="[随机] 连续剑" icon="避ける.png" sync="(40B9|4659):(.*) starts using (.*) on (.*)."/>
+        <a time="08:45" text="[随机] 连续剑" icon="避ける.png" sync="(40B9|4659):(.*) starts using (.*) on (.*)."/>
+        <a time="09:09" text="[AoE] 寂灭 1" icon="全体強攻撃.png" sync="3E63:(.*) starts using (.*) on (.*)."/>
+        <a time="09:21" text="[随机] 连续剑" icon="避ける.png" sync="(40B9|4659):(.*) starts using (.*) on (.*)."/>
+        <a time="09:44" text="[AoE] 寂灭 2" icon="全体強攻撃.png" sync="3E63:(.*) starts using (.*) on (.*)."/>
+        <a time="09:53" text="[AoE] 寂灭 3" icon="全体強攻撃.png" sync="3E63:(.*) starts using (.*) on (.*)."/>
+        <a time="10:02" text="[AoE] 寂灭 4 " icon="全体強攻撃.png" sync="3E63:(.*) starts using (.*) on (.*)."/>
+        <a time="10:16" text="[AoE] 寂灭 5" icon="全体強攻撃.png" sync="3E63:(.*) starts using (.*) on (.*)."/>
+        <a time="10:33" text="[AoE] 寂灭 狂暴" icon="時間切れ.png" sync="3E63:(.*) starts using (.*) on (.*)."/>
+    </s>
+</timeline>
