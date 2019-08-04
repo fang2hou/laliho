@@ -49,7 +49,7 @@
         <a time="05:13" text="[死刑] 撕裂水流" icon="スイッチ.png" sync="3FE0:(.*) starts using (.*) on (.*)."/>
         <a time="05:29" text="[圈x5] 大风暴" icon="重ね捨て.png" sync="3FFE:(.*) starts using (.*) on (.*)."/>
         <a time="05:42" text="[斜冲1] 随机 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
-        <a time="05:47" text="[T远离] 反冲巨浪" icon="距離減衰.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
+        <a time="05:47" text="[T远离] 反冲巨浪" icon="距離減衰.png"/>
         <a time="05:51" text="[斜冲2] 反向 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
         <a time="05:57" text="[分摊x5] 强推巨浪" icon="頭割り.png"/>
         <a time="06:02" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
@@ -83,6 +83,6 @@
         <a time="10:02" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
         <a time="10:09" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
         <a time="10:20" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
-        <a time="10:29" text="[AoE] 混沌涡动 狂暴" icon="時間切れ.png"/>
+        <a time="10:41" text="[AoE] 混沌涡动 狂暴" icon="時間切れ.png"/>
     </s>
 </timeline>
