@@ -6,7 +6,7 @@
     <author>houshuu ＠ NGA</author>
     <description>这是用于希望之园伊甸零式：觉醒篇 3 的时间轴。</description>
     <license>CC BY-SA</license>
-    <locale>CN</locale>
+    <locale>JA</locale>
     <entry>利维坦</entry>
     <start>00:0039:(戦闘開始！|Engage!|战斗开始！)</start>
     <!-- 参数设定 -->
@@ -24,7 +24,7 @@
         <a time="00:58" text="[放圈] 猛烈波动" icon="重ね捨て.png" sync="3FE2:(.*) starts using (.*) on (.*)."/>
         <a time="01:03" text="[分散] 怪异波浪" icon="全体攻撃.png" sync="3FE6:(.*) starts using (.*) on [me]."/>
         <a time="01:13" text="[斜冲] 突现水流 ↙" icon="避ける.png" sync="3FEB:(.*) starts using (.*) on (.*)."/>
-        <a time="01:24" text="[运动会] 漩涡" icon="注意.png" sync="3FFA:(.*) starts using (.*) on (.*)."/>
+        <a time="01:24" text="[运动会x2] 漩涡" icon="注意.png" sync="3FFA:(.*) starts using (.*) on (.*)."/>
         <a time="01:46" text="[AoE] 潮汐怒吼" icon="全体攻撃.png" sync="3FDC:(.*) starts using (.*) on (.*)."/>
         <a time="02:00" text="[AoE] 大海啸1️⃣" icon="全体攻撃.png" sync="3FF3:(.*) starts using (.*) on (.*)."/>
         <a time="02:17" text="[击退] 断绝大海啸" icon="ノックバック.png"/>
@@ -44,7 +44,7 @@
         <a time="04:14" text="[分散] 怪异波浪" icon="全体攻撃.png" sync="3FE6:(.*) starts using (.*) on [me]."/>
         <a time="04:19" text="[斜冲1] 随机 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
         <a time="04:28" text="[斜冲2] 反向 突现水流\n ‼看头" icon="避ける.png" sync="3FE[AB]:(.*) starts using (.*) on (.*)."/>
-        <a time="04:40" text="[运动会] 漩涡" icon="注意.png" sync="3FFA:(.*) starts using (.*) on (.*)."/>
+        <a time="04:40" text="[运动会x3] 漩涡" icon="注意.png" sync="3FFA:(.*) starts using (.*) on (.*)."/>
         <a time="05:06" text="[AoE] 潮汐之怒" icon="全体攻撃.png" sync="3FDE:(.*) starts using (.*) on (.*)."/>
         <a time="05:13" text="[死刑] 撕裂水流" icon="スイッチ.png" sync="3FE0:(.*) starts using (.*) on (.*)."/>
         <a time="05:29" text="[圈x5] 大风暴" icon="重ね捨て.png" sync="3FFE:(.*) starts using (.*) on (.*)."/>
