@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="true" EventFilterEnabled="false" Id="b5583b11-a0c7-4578-81b0-0d1277bc2cad" ZoneFilterRegularExpression="Eden's\ Gate:\ Resurrection\ \(Savage\)" Name="希望の園エデン零式：覚醒編１ / E1S" Enabled="true">
+  <ExportedFolder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="true" EventFilterEnabled="false" Id="b5583b11-a0c7-4578-81b0-0d1277bc2cad" ZoneFilterRegularExpression="Eden's\ Gate:\ Resurrection\ \(Savage\)" Name="觉醒篇 1" Enabled="true">
     <Folders />
     <Triggers>
       <Trigger Enabled="true" Source="Log" Name="ヴァイス・アンド・ヴァーチュー / 恶德和美德" Id="c4c32a05-e415-46ee-899f-e14b7fad78f9" RegularExpression=":(?&lt;skillType&gt;3D7A|3D7D|3D78|44F0|44EE|44EF):(.*) starts using (.*) on (.*)." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
