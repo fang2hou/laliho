@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="19395de6-6ced-4152-bbf1-80cab7147c8b" ZoneFilterRegularExpression="Eden's\ Gate:\ Sepulture\ \(Savage\)" Name="觉醒篇 4" Enabled="true">
+  <ExportedFolder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="true" EventFilterEnabled="false" Id="19395de6-6ced-4152-bbf1-80cab7147c8b" ZoneFilterRegularExpression="Eden's\ Gate:\ Sepulture\ \(Savage\)" Name="觉醒篇 4" Enabled="true">
     <Folders />
     <Triggers>
       <Trigger Enabled="true" Source="Log" Name="メガリスクラッシュ / 巨石粉碎" Id="bf04aff3-853e-4cd6-a115-e68b9155ae8a" RegularExpression="1B:[0-9A-Z]{8}:(?&lt;playerName&gt;[^0-9]+):....:....:005D:" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
@@ -387,7 +387,7 @@
         </Actions>
         <Condition Enabled="false" Grouping="Or" />
       </Trigger>
-      <Trigger Enabled="true" Source="Log" Name="转阶段" Id="62536ebe-bf5f-4d38-a328-3f60dc7d96e8" RegularExpression="22:[0-9A-Z]{8}:(.*):[0-9A-Z]{8}:(.*):00" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+      <Trigger Enabled="false" Source="Log" Name="转阶段" Id="62536ebe-bf5f-4d38-a328-3f60dc7d96e8" RegularExpression="22:[0-9A-Z]{8}:(.*):[0-9A-Z]{8}:(.*):00" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
         <Actions>
           <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="20.25" TextAuraEffect="Bold" ActionType="TextAura" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraName="SpellNotifierTitle" TextAuraExpression="巨人形态" TextAuraXIniExpression="0.5*(${_screenwidth}-400)" TextAuraYIniExpression="0.5*(${_screenheight}-100)" TextAuraWIniExpression="400" TextAuraHIniExpression="60" TextAuraOIniExpression="100" TextAuraTTLTickExpression="3-${_since}" TextAuraFontName="Microsoft YaHei" TextAuraUseOutline="True" TextAuraForeground="#E74C50" TextAuraBackground="Transparent" TextAuraOutline="#ECF0F1" OBSControlType="StartStreaming" KeypressType="SendKeys">
             <Condition Enabled="true" Grouping="And">
